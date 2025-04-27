@@ -10,11 +10,12 @@ Chat Assistant là một ứng dụng trò chuyện thông minh được xây d�
 - **Đọc file PDF**: Phân tích và trích xuất thông tin từ tệp PDF
 
 ## 3. Cài đặt
+### 3.1 Cài đặt với Python
 
 1. Clone project
 
 ```console
-git clone 
+git clone https://github.com/Tohoangminhtien/chat-assisstant.git
 ```
 
 2. Cài đặt thư viện
@@ -31,5 +32,20 @@ python app.py
 
 4. Mở localhost
 ```console
-localhost:127.0.0.1:7860
+http://localhost:7860/
+```
+
+### 3.2 Cài đặt với Docker (Recommend)
+1. Pull từ Docker Hub
+```console
+docker pull tienthm/chat-assisstant:1.0
+```
+2. Run container
+```console
+docker run -p 7860:7860 tienthm/chat-assisstant:1.0
+```
+
+3. Mở localhost
+```console
+http://localhost:7860/
 ```
