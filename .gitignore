@@ -1,0 +1,6 @@
+.gradio
+.venv
+file_test
+private/.env
+tmp
+__pycache__
